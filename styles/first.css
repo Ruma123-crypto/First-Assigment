@@ -20,7 +20,7 @@ body{
     margin: auto;
     background-repeat: no-repeat;
 }
-nav{
+.header-nav{
     display: flex;
     justify-content: space-between;
     margin: 0 130px;
@@ -96,10 +96,10 @@ nav{
 }
  .model
 {
-    width:900px ;
+    width:1000px ;
     height:206px ;
     /* position: absolute; */
-    margin-left: 300px;
+    margin-left: 2gi00px;
     /* left: 300px; */
     right: 1258px;
     padding: 0px 50px 70px;
@@ -235,7 +235,7 @@ lighter{
     margin-top: 150px;
    
 }
-h2{
+.fo{
     width: 516px;
     height: 60px;
     font-weight: bold;
@@ -278,7 +278,7 @@ h2{
 
 }
 .contact-form{
-    position: absolute;
+    position: relative;
    left: 150px;
    right: 2969px;
    width: 1140px;
@@ -362,3 +362,61 @@ label{
     height: 22;
     
 }
+.footer-content{
+    position: relative;
+    right: 3615;
+    width: 1440;
+    height: 300;
+    background-color: hsl(0, 9%, 96%);
+    text-align: center;
+   
+}
+.footer-logo{ 
+    position: relative;
+    left: 550px;
+    width: 291px;
+    height: 121px;
+    color: blue;
+    font-weight: bolder;
+    font-size: 67px;
+    padding-bottom: 20px;
+    padding-top: 80px;
+}
+.footer-text{
+    position: absolute;
+    left: 450px;
+    width: 531px;
+    height: 48px;
+    color: #8987A1;
+    padding-bottom: 800px;
+    padding-top: 0px;
+    margin-bottom: 1000px;
+}
+.footer-nav{
+     
+    position: relative;
+    padding: 100px;
+    left: 430px;
+    right: 197px;
+    display: flex;
+   justify-content: space-around;
+    width: 401px;
+    height: 400px;
+   
+   
+}
+ nav li a{
+    text-decoration: none;
+    color: #8987A1;
+}
+nav li{
+    list-style: none;
+} 
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+   
+}
+
+
