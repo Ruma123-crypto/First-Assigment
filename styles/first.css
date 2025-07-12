@@ -7,6 +7,11 @@
     "wdth" 100;
 }
 
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
 .header{
     width: 1440px;
     height: 698px;
@@ -271,4 +276,89 @@ h2{
     border-radius: 15px;
     
 
+}
+.contact-form{
+    position: absolute;
+   left: 150px;
+   right: 2969px;
+   width: 1140px;
+   height: 632px;
+   gap: 50px;
+   padding: 0px 71px;
+   margin-top: 200px;
+   margin-bottom: 100px;
+   display: flex;
+   justify-content: center;
+   /* background-color: #f7f3f3e9; */
+   
+   
+}
+.l{
+    position: absolute;
+    left: 100px;
+    width: 500px;
+    height: 232px;
+    font-weight: bold;
+    font-size: 97px;
+    line-height: 120%;
+    padding-top: 80px;
+  
+    
+   
+
+}
+.form{
+    position: absolute;
+    left: 643px;
+    right: 71px;
+    width: 497px;
+    height: 490px;
+    text-align: left;
+    gap:19px;
+    padding-top: 40px;
+    
+    
+}
+.form-group{
+    width: 497px;
+    height: 102px;
+  
+    gap: 10px;
+}
+
+input{
+    /* position: absolute;
+    left: 50px; */
+     width: 500px;
+    height: 0px;
+    gap: 10px;
+    padding: 32px 20px;
+    background-color: #ffffff;
+}
+textarea{
+    
+    width: 500px;
+    height: 5px;
+    gap: 10px;
+    padding: 32px 20px;
+    background-color: #ffffff;
+
+}
+.btn{
+    /* position: absolute;
+    right: 428px;  */
+    width: 540px;
+    height: 50px;
+    gap: 10px;
+    /* padding: 101px 19px; */
+    background-color: blue;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+label{
+    width: 497;
+    height: 22;
+    
 }
